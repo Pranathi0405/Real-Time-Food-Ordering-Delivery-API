@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QuickBite - Track Your Order</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f7f7f7;
+        }
+        #card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            width: 400px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #status {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: bold;
+        }
+        #log {
+            font-size: 16px;
+            white-space: pre-wrap;
+        }
+        .loading {
+            color: orange;
+        }
+        .connected {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+<h2>🍔 QuickBite – Live Order Tracking</h2>
+
+<div id="card">
+    <div id="status" class="loading">Connecting to tracking server...</div>
+    <div id="log"></div>
+</div>
+
+<script>
+async function startTracking() {
+    const statusEl = document.getElementById("status");
+    const logEl = document.getElementById("log");
+
+    statusEl.textContent = "Connecting...";
+    
+    try {
+        // Your negotiate endpoint
+        const negotiateUrl = "https://myprojectfunctionapp.azurewebsites.net/api/negotiate";
+
+        const response = await fetch(negotiateUrl);
+        const data = await response.json();
+
+        console.log("Negotiate:", data);
+
+        // Important protocol for Azure WebPubSub
+        const ws = new WebSocket(data.url, "json.webpubsub.azure.v1");
+
+        ws.onopen = () => {
+            statusEl.textContent = "🟢 Connected. Waiting for updates...";
+            statusEl.className = "connected";
+        };
+
+        ws.onmessage = (event) => {
+            try {
+                const packet = JSON.parse(event.data);
+                const msg = packet.data || packet;
+
+                let text = 
+                    `Order ID: ${msg.order_id}\n` +
+                    `Status: ${msg.status}\n` +
+                    `Message: ${msg.message || ""}\n` +
+                    `Time: ${new Date().toLocaleTimeString()}\n\n`;
+
+                logEl.textContent += text;
+
+                // update big status
+                statusEl.textContent = msg.status;
+
+            } catch (e) {
+                console.error("Parsing error:", e);
+            }
+        };
+
+        ws.onerror = () => {
+            statusEl.textContent = "❌ WebSocket Error";
+            statusEl.style.color = "red";
+        };
+
+        ws.onclose = () => {
+            statusEl.textContent = "🔴 Disconnected";
+            statusEl.style.color = "red";
+        };
+
+    } catch (err) {
+        statusEl.textContent = "❌ Failed to connect";
+        statusEl.style.color = "red";
+        console.error(err);
+    }
+}
+
+startTracking();
+</script>
+
+</body>
+</html>

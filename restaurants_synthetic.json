@@ -1,0 +1,502 @@
+[
+    {
+        "id": "R-001",
+        "name": "Restaurant_001",
+        "location": {
+            "lat": 12.908666,
+            "lon": 77.641439
+        },
+        "cuisine": "Chinese",
+        "rating": 4.6
+    },
+    {
+        "id": "R-002",
+        "name": "Restaurant_002",
+        "location": {
+            "lat": 13.017178,
+            "lon": 77.638448
+        },
+        "cuisine": "Italian",
+        "rating": 3.5
+    },
+    {
+        "id": "R-003",
+        "name": "Restaurant_003",
+        "location": {
+            "lat": 12.950913,
+            "lon": 77.558616
+        },
+        "cuisine": "Italian",
+        "rating": 3.2
+    },
+    {
+        "id": "R-004",
+        "name": "Restaurant_004",
+        "location": {
+            "lat": 13.010948,
+            "lon": 77.655158
+        },
+        "cuisine": "Mexican",
+        "rating": 4.3
+    },
+    {
+        "id": "R-005",
+        "name": "Restaurant_005",
+        "location": {
+            "lat": 12.93406,
+            "lon": 77.697507
+        },
+        "cuisine": "Italian",
+        "rating": 3.8
+    },
+    {
+        "id": "R-006",
+        "name": "Restaurant_006",
+        "location": {
+            "lat": 13.033654,
+            "lon": 77.572835
+        },
+        "cuisine": "Japanese",
+        "rating": 3.3
+    },
+    {
+        "id": "R-007",
+        "name": "Restaurant_007",
+        "location": {
+            "lat": 13.037774,
+            "lon": 77.617265
+        },
+        "cuisine": "Thai",
+        "rating": 4.2
+    },
+    {
+        "id": "R-008",
+        "name": "Restaurant_008",
+        "location": {
+            "lat": 13.037659,
+            "lon": 77.577462
+        },
+        "cuisine": "Italian",
+        "rating": 3.7
+    },
+    {
+        "id": "R-009",
+        "name": "Restaurant_009",
+        "location": {
+            "lat": 12.901582,
+            "lon": 77.699288
+        },
+        "cuisine": "Japanese",
+        "rating": 3.1
+    },
+    {
+        "id": "R-010",
+        "name": "Restaurant_010",
+        "location": {
+            "lat": 12.990884,
+            "lon": 77.614389
+        },
+        "cuisine": "Japanese",
+        "rating": 3.5
+    },
+    {
+        "id": "R-011",
+        "name": "Restaurant_011",
+        "location": {
+            "lat": 13.0334,
+            "lon": 77.524768
+        },
+        "cuisine": "American",
+        "rating": 4.6
+    },
+    {
+        "id": "R-012",
+        "name": "Restaurant_012",
+        "location": {
+            "lat": 12.981982,
+            "lon": 77.618213
+        },
+        "cuisine": "Chinese",
+        "rating": 4.7
+    },
+    {
+        "id": "R-013",
+        "name": "Restaurant_013",
+        "location": {
+            "lat": 12.943963,
+            "lon": 77.560871
+        },
+        "cuisine": "Japanese",
+        "rating": 4.2
+    },
+    {
+        "id": "R-014",
+        "name": "Restaurant_014",
+        "location": {
+            "lat": 13.022009,
+            "lon": 77.586443
+        },
+        "cuisine": "Thai",
+        "rating": 3.1
+    },
+    {
+        "id": "R-015",
+        "name": "Restaurant_015",
+        "location": {
+            "lat": 12.955171,
+            "lon": 77.592942
+        },
+        "cuisine": "Italian",
+        "rating": 3.6
+    },
+    {
+        "id": "R-016",
+        "name": "Restaurant_016",
+        "location": {
+            "lat": 13.049351,
+            "lon": 77.61497
+        },
+        "cuisine": "Mexican",
+        "rating": 3.2
+    },
+    {
+        "id": "R-017",
+        "name": "Restaurant_017",
+        "location": {
+            "lat": 12.966855,
+            "lon": 77.64985
+        },
+        "cuisine": "Mexican",
+        "rating": 3.2
+    },
+    {
+        "id": "R-018",
+        "name": "Restaurant_018",
+        "location": {
+            "lat": 13.019685,
+            "lon": 77.514886
+        },
+        "cuisine": "Thai",
+        "rating": 3.0
+    },
+    {
+        "id": "R-019",
+        "name": "Restaurant_019",
+        "location": {
+            "lat": 13.013191,
+            "lon": 77.698398
+        },
+        "cuisine": "Chinese",
+        "rating": 3.6
+    },
+    {
+        "id": "R-020",
+        "name": "Restaurant_020",
+        "location": {
+            "lat": 12.903911,
+            "lon": 77.558019
+        },
+        "cuisine": "Chinese",
+        "rating": 4.0
+    },
+    {
+        "id": "R-021",
+        "name": "Restaurant_021",
+        "location": {
+            "lat": 13.017602,
+            "lon": 77.654358
+        },
+        "cuisine": "Italian",
+        "rating": 4.1
+    },
+    {
+        "id": "R-022",
+        "name": "Restaurant_022",
+        "location": {
+            "lat": 12.962601,
+            "lon": 77.663855
+        },
+        "cuisine": "Thai",
+        "rating": 3.4
+    },
+    {
+        "id": "R-023",
+        "name": "Restaurant_023",
+        "location": {
+            "lat": 12.997168,
+            "lon": 77.604837
+        },
+        "cuisine": "Japanese",
+        "rating": 3.7
+    },
+    {
+        "id": "R-024",
+        "name": "Restaurant_024",
+        "location": {
+            "lat": 12.960919,
+            "lon": 77.592086
+        },
+        "cuisine": "Mexican",
+        "rating": 3.3
+    },
+    {
+        "id": "R-025",
+        "name": "Restaurant_025",
+        "location": {
+            "lat": 12.913017,
+            "lon": 77.587198
+        },
+        "cuisine": "Thai",
+        "rating": 4.0
+    },
+    {
+        "id": "R-026",
+        "name": "Restaurant_026",
+        "location": {
+            "lat": 13.024983,
+            "lon": 77.535549
+        },
+        "cuisine": "Thai",
+        "rating": 3.8
+    },
+    {
+        "id": "R-027",
+        "name": "Restaurant_027",
+        "location": {
+            "lat": 12.912186,
+            "lon": 77.644684
+        },
+        "cuisine": "Chinese",
+        "rating": 4.1
+    },
+    {
+        "id": "R-028",
+        "name": "Restaurant_028",
+        "location": {
+            "lat": 13.016371,
+            "lon": 77.643952
+        },
+        "cuisine": "Indian",
+        "rating": 3.8
+    },
+    {
+        "id": "R-029",
+        "name": "Restaurant_029",
+        "location": {
+            "lat": 12.997691,
+            "lon": 77.693629
+        },
+        "cuisine": "American",
+        "rating": 3.3
+    },
+    {
+        "id": "R-030",
+        "name": "Restaurant_030",
+        "location": {
+            "lat": 13.000769,
+            "lon": 77.53816
+        },
+        "cuisine": "American",
+        "rating": 4.0
+    },
+    {
+        "id": "R-031",
+        "name": "Restaurant_031",
+        "location": {
+            "lat": 13.043709,
+            "lon": 77.516622
+        },
+        "cuisine": "Chinese",
+        "rating": 3.8
+    },
+    {
+        "id": "R-032",
+        "name": "Restaurant_032",
+        "location": {
+            "lat": 12.945407,
+            "lon": 77.54925
+        },
+        "cuisine": "Japanese",
+        "rating": 5.0
+    },
+    {
+        "id": "R-033",
+        "name": "Restaurant_033",
+        "location": {
+            "lat": 13.029952,
+            "lon": 77.6997
+        },
+        "cuisine": "Japanese",
+        "rating": 3.7
+    },
+    {
+        "id": "R-034",
+        "name": "Restaurant_034",
+        "location": {
+            "lat": 13.040865,
+            "lon": 77.57179
+        },
+        "cuisine": "Japanese",
+        "rating": 4.7
+    },
+    {
+        "id": "R-035",
+        "name": "Restaurant_035",
+        "location": {
+            "lat": 12.9212,
+            "lon": 77.685211
+        },
+        "cuisine": "Chinese",
+        "rating": 3.2
+    },
+    {
+        "id": "R-036",
+        "name": "Restaurant_036",
+        "location": {
+            "lat": 13.009799,
+            "lon": 77.697855
+        },
+        "cuisine": "American",
+        "rating": 4.7
+    },
+    {
+        "id": "R-037",
+        "name": "Restaurant_037",
+        "location": {
+            "lat": 12.97909,
+            "lon": 77.620351
+        },
+        "cuisine": "Indian",
+        "rating": 4.4
+    },
+    {
+        "id": "R-038",
+        "name": "Restaurant_038",
+        "location": {
+            "lat": 12.963105,
+            "lon": 77.592604
+        },
+        "cuisine": "Indian",
+        "rating": 3.8
+    },
+    {
+        "id": "R-039",
+        "name": "Restaurant_039",
+        "location": {
+            "lat": 12.955956,
+            "lon": 77.539181
+        },
+        "cuisine": "American",
+        "rating": 3.1
+    },
+    {
+        "id": "R-040",
+        "name": "Restaurant_040",
+        "location": {
+            "lat": 12.953652,
+            "lon": 77.652945
+        },
+        "cuisine": "Mexican",
+        "rating": 4.2
+    },
+    {
+        "id": "R-041",
+        "name": "Restaurant_041",
+        "location": {
+            "lat": 12.974243,
+            "lon": 77.570924
+        },
+        "cuisine": "Thai",
+        "rating": 4.5
+    },
+    {
+        "id": "R-042",
+        "name": "Restaurant_042",
+        "location": {
+            "lat": 12.982557,
+            "lon": 77.510849
+        },
+        "cuisine": "Chinese",
+        "rating": 3.9
+    },
+    {
+        "id": "R-043",
+        "name": "Restaurant_043",
+        "location": {
+            "lat": 13.036498,
+            "lon": 77.515244
+        },
+        "cuisine": "Mexican",
+        "rating": 3.4
+    },
+    {
+        "id": "R-044",
+        "name": "Restaurant_044",
+        "location": {
+            "lat": 13.006207,
+            "lon": 77.505952
+        },
+        "cuisine": "Italian",
+        "rating": 4.3
+    },
+    {
+        "id": "R-045",
+        "name": "Restaurant_045",
+        "location": {
+            "lat": 12.99095,
+            "lon": 77.694542
+        },
+        "cuisine": "Thai",
+        "rating": 3.0
+    },
+    {
+        "id": "R-046",
+        "name": "Restaurant_046",
+        "location": {
+            "lat": 12.984441,
+            "lon": 77.693306
+        },
+        "cuisine": "Italian",
+        "rating": 3.8
+    },
+    {
+        "id": "R-047",
+        "name": "Restaurant_047",
+        "location": {
+            "lat": 12.94006,
+            "lon": 77.541587
+        },
+        "cuisine": "American",
+        "rating": 3.2
+    },
+    {
+        "id": "R-048",
+        "name": "Restaurant_048",
+        "location": {
+            "lat": 12.97143,
+            "lon": 77.604513
+        },
+        "cuisine": "Italian",
+        "rating": 4.0
+    },
+    {
+        "id": "R-049",
+        "name": "Restaurant_049",
+        "location": {
+            "lat": 13.020911,
+            "lon": 77.665341
+        },
+        "cuisine": "Indian",
+        "rating": 4.0
+    },
+    {
+        "id": "R-050",
+        "name": "Restaurant_050",
+        "location": {
+            "lat": 12.93291,
+            "lon": 77.692413
+        },
+        "cuisine": "Chinese",
+        "rating": 3.9
+    }
+]
