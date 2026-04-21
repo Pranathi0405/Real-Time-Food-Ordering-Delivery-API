@@ -1,0 +1,15 @@
+# Real-Time Food Ordering API
+
+This project simulates a real-time food ordering and delivery system.
+
+## Features
+- Order processing
+- Menu handling
+- Rider assignment simulation
+
+## Tech Stack
+- Python
+- Azure Functions
+
+## How to Run
+- Run main.py
